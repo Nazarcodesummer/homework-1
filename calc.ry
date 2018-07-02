@@ -1,0 +1,41 @@
+def  plus ( a , b ):
+	return  a  +  b
+
+def  minus ( a , b ):
+	return  a  -  b
+ def multiply ( a , b ):
+	return  a  *  b 
+def separete ( a , b ):
+	return  a  /  b 
+  def exponentiation( a , b ):
+   return a ** b
+    def sin( a ):
+    return sin a
+    def cos( a ):
+    return cos a
+    def tan( a ):
+    return tan a
+    def ctg ( a ):
+    return ctg a
+    def mod ( a )
+    return mod(a)
+    
+в то время как  True :
+		print ( 'Меню'
+		'\ n1 - plus' ,
+		'\ n2 - minus' ,
+    '\ n3 - multiply' ,
+		'\ n4 - separete' ,
+    '\ n5 - exponentiation' ,
+    '\ n6 - sin' ,
+		'\ n7 - cos' ,
+    '\ n8 - tan' ,
+		'\ n9 - ctg' ,
+    '\ n10 - mod' ,
+		'\ n0 - выход'
+		)
+		
+	operation = input ( 'Выберите вашу операцию:' )
+	# додати виклик функції за вибором
+	если  операция == 0 :
+  print(EROR 404 can not be divided into 0)
